@@ -29,6 +29,16 @@ scripts/package_app.sh
 open dist/Macmontor.app
 ```
 
+## Release Package
+
+Create a local zip package for distribution:
+
+```bash
+scripts/release_zip.sh
+```
+
+The generated file is written to `dist/Macmontor-v<version>.zip`.
+
 ## Development
 
 Run from source:
