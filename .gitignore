@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+dist/
+*.dSYM/
+window-check.png
+
+# SwiftPM and local editor state
+.swiftpm/
+Package.resolved
+
+# Generated icon intermediates
+Resources/Macmontor.iconset/

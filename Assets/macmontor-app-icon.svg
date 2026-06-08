@@ -1,0 +1,57 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(246 164) rotate(45) scale(900 760)">
+      <stop offset="0" stop-color="#8DEAFF"/>
+      <stop offset="0.48" stop-color="#3AA5D9"/>
+      <stop offset="1" stop-color="#173D73"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 762) rotate(-128) scale(510 390)">
+      <stop stop-color="#A3FFD0" stop-opacity="0.84"/>
+      <stop offset="0.55" stop-color="#6BCDE4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1A467C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="222" y1="214" x2="802" y2="786" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.50"/>
+      <stop offset="0.46" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#D8F5FF" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="line" x1="288" y1="654" x2="736" y2="654" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7FFD9"/>
+      <stop offset="0.52" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#8EDCFF"/>
+    </linearGradient>
+    <filter id="shadow" x="130" y="136" width="764" height="772" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="34" stdDeviation="42" flood-color="#0B2345" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="232" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="232" fill="url(#glow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="214" y="204" width="596" height="604" rx="128" fill="url(#glass)"/>
+    <rect x="216" y="206" width="592" height="600" rx="126" stroke="white" stroke-opacity="0.48" stroke-width="4"/>
+    <rect x="250" y="240" width="524" height="532" rx="96" stroke="white" stroke-opacity="0.16" stroke-width="2"/>
+
+    <circle cx="314" cy="336" r="22" fill="#A8FFD2"/>
+    <text x="356" y="358" fill="white" fill-opacity="0.96" font-family="-apple-system, BlinkMacSystemFont, SF Pro Display, Helvetica, Arial, sans-serif" font-size="76" font-weight="760">M</text>
+
+    <g transform="translate(288 444)">
+      <rect width="200" height="146" rx="36" fill="white" fill-opacity="0.16" stroke="white" stroke-opacity="0.24" stroke-width="2"/>
+      <rect x="32" y="33" width="10" height="80" rx="5" fill="#A5FFD3"/>
+      <text x="66" y="69" fill="white" fill-opacity="0.68" font-family="SF Mono, ui-monospace, Menlo, monospace" font-size="24" font-weight="800">CPU</text>
+      <text x="66" y="113" fill="white" font-family="-apple-system, BlinkMacSystemFont, SF Pro Display, Helvetica, Arial, sans-serif" font-size="46" font-weight="760">18</text>
+    </g>
+
+    <g transform="translate(536 444)">
+      <rect width="200" height="146" rx="36" fill="white" fill-opacity="0.16" stroke="white" stroke-opacity="0.24" stroke-width="2"/>
+      <rect x="32" y="33" width="10" height="80" rx="5" fill="#C4F4FF"/>
+      <text x="66" y="69" fill="white" fill-opacity="0.68" font-family="SF Mono, ui-monospace, Menlo, monospace" font-size="24" font-weight="800">MEM</text>
+      <text x="66" y="113" fill="white" font-family="-apple-system, BlinkMacSystemFont, SF Pro Display, Helvetica, Arial, sans-serif" font-size="46" font-weight="760">15</text>
+    </g>
+
+    <path d="M292 688 C348 674 382 660 438 673 C490 685 520 706 580 686 C640 666 674 642 736 656" stroke="url(#line)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M292 724 H736" stroke="white" stroke-opacity="0.18" stroke-width="3"/>
+    <path d="M292 642 H736" stroke="white" stroke-opacity="0.12" stroke-width="3"/>
+  </g>
+</svg>
