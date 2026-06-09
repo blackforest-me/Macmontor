@@ -4,6 +4,8 @@ Macmontor is a lightweight glass-style macOS performance monitor widget built wi
 
 ![Macmontor cover](Assets/macmontor-cover.svg)
 
+![Macmontor desktop widget screenshot](Assets/macmontor-screenshot.png)
+
 ## What is Macmontor?
 
 Macmontor is a macOS desktop performance widget for developers, AI users, creators, and Mac power users who want a simple Activity Monitor alternative that stays visible without interrupting their workflow.
